@@ -7,9 +7,9 @@
     <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
     <script>
         window.OneSignalDeferred = window.OneSignalDeferred || [];
-        OneSignalDeferred.push(async onesignal=> {
+        OneSignalDeferred.push(async OneSignal=> {
             try{
-                await onesignal.init({
+                await OneSignal.init({
                 appId: "b88c07bd-2c08-405a-843c-846e410f5e47",
                 safari_web_id: "web.onesignal.auto.39e347a3-7290-467c-af89-3542a6fc2365",
                 serviceWorkerParam: { scope: "/ideal-robot" },
